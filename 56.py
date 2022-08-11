@@ -7,6 +7,7 @@ ages = {
     "maryam": 30
 }
 
-lst = [i for i in ages.values()]
+#lst = [i for i in ages.values()]
+#print(max(lst))
 
 print(max(*ages.values()))
